@@ -1,0 +1,22 @@
+.movie_details {
+    display: flex;
+    padding: 20px;
+}
+
+.movie_info {
+    margin-left: 20px;
+    /*font-weight: 700;*/
+    font-family: sans-serif;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+}
+
+.company img {
+    margin-left: 20px;
+}
+
+
+

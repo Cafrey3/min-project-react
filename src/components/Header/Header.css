@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    row-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    box-shadow: 0 -3px 5px 5px lightgray;
+}
+
+.logo img {
+    width: 150px;
+    height: 75px;
+}
+
+.input {
+    width: 300px;
+}
