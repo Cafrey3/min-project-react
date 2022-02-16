@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {useParams} from "react-router-dom";
 
 import './MovieInfo.css';
+import 'fontsource-itim';
 import {moviesService} from "../../services/movies.service";
 
 const MovieInfo = () => {
@@ -10,6 +11,7 @@ const MovieInfo = () => {
     const getMovieDetails = async () => {
         const data = await moviesService.getMovieDetailsById(id);
         setFilm(data)
+        console.log(data);
     };
     useEffect(() => {
         getMovieDetails()
@@ -18,10 +20,10 @@ const MovieInfo = () => {
 
     return (
         <div className={'movie_details'}>
-            <div>
+            <div className={'movie_photo'}>
                 <img src={`https://image.tmdb.org/t/p/w500/${film.poster_path}`} alt={film.original_title}/>
             </div>
-            <div className={'movie_info'}>
+            <div className={'movie_info'} style={{fontFamily:'itim'}}>
                 <h1>{film.original_title}</h1>
                 <p><b>Tagline: </b>{film.tagline}</p>
                 <p><b>Genres:</b>{film.genres?.map(el => <span key={el.id}> {el.name}</span>)}</p>
@@ -37,6 +39,7 @@ const MovieInfo = () => {
                 <p><b>Production countries: </b> {film.production_countries?.map(el => <span key={el.id}> {el.name}</span>)}</p>
                 <p><b>Runtime: </b>{film.runtime} minutes</p>
                 <p><b>Status: </b>{film.status}</p>
+                <p><b>Homepage: </b> <a href={film.homepage}>{film.original_title}</a></p>
             </div>
         </div>
     );

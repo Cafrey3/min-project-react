@@ -6,7 +6,7 @@
     padding: 10px 20px 10px 20px;
     font-family: sans-serif;
     font-weight: 600;
-    box-shadow: 0 -3px 5px 5px lightgray;
+    border-bottom: 2px solid lightgray;
 }
 
 .logo img {

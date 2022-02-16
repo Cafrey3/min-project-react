@@ -4,7 +4,6 @@ import './MoviesList.css';
 import {moviesService} from "../../services/movies.service";
 import {genresService} from "../../services/genres.service";
 import MoviesListCard from "../MoviesListCard/MoviesListCard";
-import {useHistory, useLocation, useParams} from "react-router-dom";
 
 const MoviesList = () => {
     const [movies, setMovies] = useState([]);
@@ -33,7 +32,6 @@ const MoviesList = () => {
         })
 
         setMovies(mergedWithGenresMovies)
-        console.log(movies);
     }
 
     useEffect(() => {

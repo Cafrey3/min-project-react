@@ -1,11 +1,11 @@
 .movie_details {
     display: flex;
     padding: 20px;
+    background-color: aliceblue;
 }
 
 .movie_info {
     margin-left: 20px;
-    /*font-weight: 700;*/
     font-family: sans-serif;
 }
 
@@ -16,6 +16,10 @@
 
 .company img {
     margin-left: 20px;
+}
+
+.movie_photo img {
+    box-shadow: 0 5px 15px 3px gray;
 }
 
 
