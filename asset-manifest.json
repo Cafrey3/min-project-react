@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d93ef349.css",
+    "main.js": "/static/js/main.6273d841.js",
+    "static/media/itim-all-400-normal.woff": "/static/media/itim-all-400-normal.bbb355d8afccfa1563c6.woff",
+    "static/media/itim-latin-400-normal.woff2": "/static/media/itim-latin-400-normal.0665050585e4336179db.woff2",
+    "static/media/itim-latin-ext-400-normal.woff2": "/static/media/itim-latin-ext-400-normal.71af0d46efcab49d5eeb.woff2",
+    "static/media/itim-thai-400-normal.woff2": "/static/media/itim-thai-400-normal.0f54ca811bf8080ef30f.woff2",
+    "static/media/itim-vietnamese-400-normal.woff2": "/static/media/itim-vietnamese-400-normal.74178b410acba9555517.woff2",
+    "index.html": "/index.html",
+    "main.d93ef349.css.map": "/static/css/main.d93ef349.css.map",
+    "main.6273d841.js.map": "/static/js/main.6273d841.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d93ef349.css",
+    "static/js/main.6273d841.js"
+  ]
+}
